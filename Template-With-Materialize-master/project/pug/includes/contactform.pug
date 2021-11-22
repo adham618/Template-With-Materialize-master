@@ -1,0 +1,35 @@
+//- Forms
+section.container.section#contact.scrollspy
+  .row
+    .col.s12.l5
+      h2.indigo-text.text-darken-4 Get in Touch
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.
+      p Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.
+      p Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.
+    .col.s12.l5.offset-l2
+      form(action="")
+        .input-field
+          i.material-icons.prefix email
+          input(type="email", name="" id="email")
+          label(for="email") Your Email
+        .input-field
+          i.material-icons.prefix message
+          textarea.materialize-textarea#message(name="")
+          label(for="message") Your message
+        .input-field
+          i.material-icons.prefix date_range          
+          input#date.datepicker(type="text", name="")
+          label(for="date") Choose a date you need me for...
+        .input-field
+          p Services required:
+          p
+            label
+              input(type="checkbox")
+              span Photography
+          p
+            label
+              input(type="checkbox")
+              span Photo Editing
+        .input-field.center
+          input.btn.waves-effect.waves-light.white-text(type="submit", value="submit")

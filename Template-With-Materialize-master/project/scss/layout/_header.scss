@@ -1,0 +1,11 @@
+//- Header
+header {
+  background-image: url(../img/man.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+
+  @media screen and (max-width: 670px) {
+    min-height: 500px;
+  }
+}

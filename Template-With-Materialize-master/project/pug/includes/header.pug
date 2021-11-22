@@ -1,0 +1,31 @@
+//- Header
+header
+  nav.nav-wrapper.transparent
+    .container
+      a.brand-logo(href="index.html") Photo Ninja
+      a.sidenav-trigger(data-target="mobile-menu")
+        i.material-icons menu
+      ul#nav-mobile.right.hide-on-med-and-down
+        li
+          a(href="#photos") Photo's
+        li
+          a(href="#services") Services
+        li
+          a(href="#contact") Contact
+        li
+          a.btn-floating.btn-small.indigo.darken-4.tooltipped(href="#" data-tooltip="Instagram")
+            i.fab.fa-instagram
+        li
+          a.btn-floating.btn-small.indigo.darken-4.tooltipped(href="#" data-tooltip="Facebook")
+            i.fab.fa-facebook-f
+        li
+          a.btn-floating.btn-small.indigo.darken-4.tooltipped(href="#" data-tooltip="Twitter")
+            i.fab.fa-twitter
+      ul.sidenav.grey.lighten-2#mobile-menu
+        li
+          a(href="#photos") Photo's
+        li
+          a(href="#services") Services
+        li
+          a(href="#contact") Contact
+

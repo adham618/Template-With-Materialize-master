@@ -1,0 +1,34 @@
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/extend";
+
+@import "layout/header";
+
+@import "components/buttons";
+
+// pages
+@import "pages/home";
+@import "pages/services";
+@import "pages/players";
+@import "pages/ipsum";
+@import "pages/global";
+
+@import "layout/footer";
+
+
+.section{
+  padding: 4vw 0;
+}
+.tabs .indicator{
+  background: #0d47a1;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color: transparent;
+  outline: none;
+}
+
+.waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {
+  outline: 0;
+  color: white;
+}
